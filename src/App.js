@@ -1,17 +1,21 @@
 import React from 'react';
 import {useState} from 'react';
+import SethComputer from './images/SethComputer.jpg';
+import IMG_1 from './images/IMG_1.jpg';
 
 class AboutSeth extends React.PureComponent {
-  render () { return <p>Hi I am Seth. I am the team leader</p>
+  render () { return <div>
+                      <p>Hi I am Seth. I am the team leader</p>
+                      <img src = {SethComputer} width= "100" height= "100" alt = ""></img>
+                    </div>
                      
   }
 }
 
 class AboutAlex extends React.PureComponent {
   render () { return <div>
-                      <p>AboutAlex</p>
-                      <img src = "../images/name of image">
-                    </img></div>
+                      <p>AboutAlex</p>                                
+                    </div>
   
   }
 }
@@ -29,7 +33,10 @@ class AboutArmando extends React.PureComponent {
 }
 
 class AboutIgor extends React.PureComponent {
-  render () { return <p>AboutIgor</p>
+  render () { return  <div>
+                        <p>Hi I am Igor. I am a member of "The Virtual Farmer's Market".</p>
+                        <img src = {IMG_1} width= "100" height= "100" alt = ""></img>
+                      </div>
                      
   }
 }
@@ -41,7 +48,7 @@ class AboutMichael extends React.PureComponent {
 } 
 
 function App() {
-
+  
   const [isSethShown, setIsSethShown] = useState(false);
   const [isAlexShown, setIsAlexShown] = useState(false);
   const [isAlejandroShown, setIsAlejandroShown] = useState(false);
