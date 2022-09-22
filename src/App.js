@@ -2,7 +2,7 @@ import React from 'react';
 import {useState} from 'react';
 import SethComputer from './images/SethComputer.jpg';
 import IMG_1 from './images/IMG_1.jpg';
-import ninjadog from './images/ninjadog.jpg';
+import ninjadog from './images/ninjadog.JPG';
 import asdf from './images/asdf.jpg';
 import pig from './images/pig.jpg';
 
