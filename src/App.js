@@ -2,6 +2,9 @@ import React from 'react';
 import {useState} from 'react';
 import SethComputer from './images/SethComputer.jpg';
 import IMG_1 from './images/IMG_1.jpg';
+import ninjadog from './images/ninjadog.jpg';
+import asdf from './images/asdf.jpg';
+import pig from './images/pig.jpg';
 
 class AboutSeth extends React.PureComponent {
   render () { return <div>
@@ -14,20 +17,28 @@ class AboutSeth extends React.PureComponent {
 
 class AboutAlex extends React.PureComponent {
   render () { return <div>
-                      <p>AboutAlex</p>                                
+                      <p>Hi there, my name is Alex. I am the database master.</p> 
+                      <img src = {asdf} width= "100" height= "100" alt = ""></img>                               
                     </div>
   
   }
 }
 
 class AboutAlejandro extends React.PureComponent {
-  render () { return <p>AboutAlejandro</p>
+  render () { return <div>
+                      <p>Hello, I'm Angel and I'm the github master.</p>
+                      <img src = {pig} width="100" height="100" alt=""></img>
+                    
+                    </div> 
                      
   }
 }
 
 class AboutArmando extends React.PureComponent {
-  render () { return <p>AboutArmando</p>
+  render () { return <div>
+                      <p>Hello I'm Armando. I'm the backend master</p>
+                      <img src = {ninjadog} width= "100" height= "100" alt = ""></img>
+                      </div>
                      
   }
 }
